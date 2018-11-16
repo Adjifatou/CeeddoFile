@@ -6,71 +6,11 @@ body{
   padding: 0;
   background: #333;
 }
-.login-box{
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(25deg,#3ac7f2,#25272e);
-  transition: 1s;
-}
-.login-form{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+
+/* label */
+label
+{
   color: white;
-  text-align: center;
-}
-.login-form h1{
-  font-weight: 400;
-  margin-top: 0;
-}
-.txtb{
-  background-color: blue;
-  display: block;
-  box-sizing: border-box;
-  width: 240px;
-  background: #ffffff28;
-  border: 1px solid white;
-  padding: 10px 20px;
-  color: white;
-  outline: none;
-  margin: 10px 0;
-  border-radius: 6px;
-  text-align: center;
-}
-.login-btn{
-  width: 240px;
-  background: #2c3e50;
-  border: 0;
-  color: white;
-  padding: 10px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-.hide-login-btn{
-  color: #000;
-  position: absolute;
-  top: 20px;
-  left: 40px;
-  cursor: pointer;
-  font-size: 24px;
-  opacity: .7;
-}
-.show-login-btn{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  color: white;
-  border: 2px solid;
-  padding: 10px;
-  cursor: pointer;
-}
-.showed{
-  left: 600px;
 }
 
 
@@ -112,3 +52,17 @@ body{
 .btn1:hover::before{
   height: 180%;
 }
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+/* adji */
